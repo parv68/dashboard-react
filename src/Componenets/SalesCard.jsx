@@ -1,7 +1,7 @@
 const SalesCard = () => {
   return (
     <div className="grid">
-      <div className="bg-gray-800 p-2 rounded-lg ">
+      <div className="bg-gray-800 p-2 pl-4 rounded-lg ">
         <h2 className="text-xl font-bold mt-0">Team Sales 📈</h2>
         <div className="flex justify-between">
           <div>

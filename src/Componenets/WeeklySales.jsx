@@ -21,7 +21,7 @@ const WeeklySales = () => {
         </ResponsiveContainer>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default WeeklySales;

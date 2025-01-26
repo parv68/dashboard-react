@@ -5,7 +5,7 @@ const team = [
   { name: "Paul", region: "West", sales: 145.3, weekly: 19, image: "./src/images/image3.jpg", percent: 48, revenue: 300 },
   { name: "Sam", region: "South", sales: 133.4, weekly: 25, image: "./src/images/image4.jpg", percent: 44, revenue: 300 },
 ];
-
+  
 const dale_sales = [
   { name: 'Jan', uv: 1000 },
   { name: 'Feb', uv: 3000 },

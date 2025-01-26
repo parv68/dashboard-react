@@ -15,6 +15,6 @@ const Leaderboard = () => {
       </div>
     </div>
   );
-};
+}; 
 
 export default Leaderboard;
