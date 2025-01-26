@@ -1,9 +1,9 @@
 const SalesCard = () => {
   return (
-    <div className="grid col-span-3 row-span-1 gap-1">
-      <div className="bg-gray-800 p-8 rounded-lg ">
+    <div className="grid">
+      <div className="bg-gray-800 p-2 rounded-lg ">
         <h2 className="text-xl font-bold mt-0">Team Sales 📈</h2>
-        <div className="flex justify-between mt-4">
+        <div className="flex justify-between">
           <div>
             <p className="font-bold text-2xl">$<span className="text-4xl font-bold">473.2</span>k</p>
             <p className="text-lg">this year</p>
@@ -21,7 +21,7 @@ const SalesCard = () => {
           <div>
             <p className="font-bold text-2xl">$<span className="text-4xl font-bold">52.5</span>k</p>
             <p className="text-lg">this week</p>
-            <p className="mt-2"><span className="text-green-500 font-bold">⬆ +30.2k </span>v last week</p>
+            <p><span className="text-green-500 font-bold">⬆ +30.2k </span>v last week</p>
           </div>
         </div>
       </div>

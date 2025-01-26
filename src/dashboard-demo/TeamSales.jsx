@@ -50,7 +50,7 @@ const TeamSales = () => {
     <div className="flex gap-3 ">
       {/* dale */}
       <div className="flex flex-col justify-center mt-4">
-        <div className="bg-gray-800 p-4 rounded-lg grid col-start-5 col-end-8 row-start-1 row-end-5  ">
+        <div className="bg-gray-800 p-4 rounded-lg grid">
           <h3 className="text-lg font-bold mb-3">{team[0].name}</h3>
           <p className="text-sm  text-white-400 mb-2">{team[0].region}</p>
           <img

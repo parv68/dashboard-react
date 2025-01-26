@@ -9,9 +9,9 @@ const weekly_sales = [
 const WeeklySales = () => {
 
   return (
-    <div className="grid col-start-1 col-end-4 row-start-3 row-end-4 gap-1">
-      <div className="bg-gray-800 p-4 rounded-lg mt-4 ">
-        <h2 className="text-xl font-bold mb-3">Weekly Sales 📊</h2>
+    <div className="grid gap-1">
+      <div className="bg-gray-800 p-4 rounded-lg mt-2 ">
+        <h2 className="text-xl font-bold mb-2">Weekly Sales 📊</h2>
         <ResponsiveContainer width="100%" height={100}>
           <LineChart data={weekly_sales}>
             <XAxis dataKey="name" />
