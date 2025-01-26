@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6 ">
       <h1 className="text-2xl font-bold mb-4">Team Leaderboard</h1>
-
+      <div className="grid w-[clamp(100px,100%,960px)] grid-cols-9 auto-rows-[minmax(100px,auto)] gap-4">
       {/* team sales */}
       <SalesCard />
 
@@ -20,7 +20,8 @@ const App = () => {
 
       {/* team */}
       <TeamSales/>
-
+      </div>
+      
     </div>
   );
 };

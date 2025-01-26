@@ -1,6 +1,6 @@
 const Leaderboard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-1">
+    <div className="grid col-start-1 col-end-4 row-start-2 row-end-3 gap-1">
       <div className="bg-gray-800 p-4 rounded-lg mt-4 ">
         <h2 className="text-xl font-bold">Leaderboard 🏆</h2>
         <ul className="flex flex-col mt-2  justify-between">

@@ -1,8 +1,8 @@
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 const team = [
-  { name: "Dale", region: "North East", sales: 93.8, weekly: 4.5, image: "./src/images/image1.jpg", percent: 31, revenue: 300 },
-  { name: "Nick", region: "Mid-West", sales: 101, weekly: 4, image: "./src/images/image2.jpg", percent: 33, revenue: 300 },
-  { name: "Paul", region: "West", sales: 145, weekly: 19, image: "./src/images/image3.jpg", percent: 48, revenue: 300 },
+  { name: "Dale", region: "North East", sales: 193.8, weekly: 4.5, image: "./src/images/image1.jpg", percent: 31, revenue: 300 },
+  { name: "Nick", region: "Mid-West", sales: 101.8, weekly: 4, image: "./src/images/image2.jpg", percent: 33, revenue: 300 },
+  { name: "Paul", region: "West", sales: 145.3, weekly: 19, image: "./src/images/image3.jpg", percent: 48, revenue: 300 },
   { name: "Sam", region: "South", sales: 133.4, weekly: 25, image: "./src/images/image4.jpg", percent: 44, revenue: 300 },
 ];
 
@@ -47,9 +47,10 @@ const sam_sales = [
 
 const TeamSales = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-1 ">
+    <div className="flex gap-3 ">
+      {/* dale */}
       <div className="flex flex-col justify-center mt-4">
-        <div className="bg-gray-800 p-4 rounded-lg flex flex-col ">
+        <div className="bg-gray-800 p-4 rounded-lg grid col-start-5 col-end-8 row-start-1 row-end-5  ">
           <h3 className="text-lg font-bold mb-3">{team[0].name}</h3>
           <p className="text-sm  text-white-400 mb-2">{team[0].region}</p>
           <img
@@ -79,6 +80,7 @@ const TeamSales = () => {
             </LineChart>
           </ResponsiveContainer>
         </div>
+        
       </div>
       <div className="flex flex-col justify-center mt-4">
         <div className="bg-gray-800 p-4 rounded-lg flex flex-col ">
