@@ -1,12 +1,12 @@
 const Leaderboard = () => {
   return (
     <div className="grid gap-1">
-      <div className="bg-gray-800 p-4 rounded-lg mt-2 ">
+      <div className="bg-gray-800 p-4 rounded-lg mt-2 pb-7">
         <h2 className="text-xl font-bold">Leaderboard 🏆</h2>
-        <ul className="flex flex-col mt-2  justify-between">
+        <ul className="flex flex-col mt-2 justify-between">
           <li className="flex mt-1 pb-1 justify-between"><span>Paul🧔</span> <span>$145k</span></li>
           <hr />
-          <li className="flex mt-1 pb-1 justify-between"><span>Sam👩‍💻 </span> <span>$133.4k</span></li>
+          <li className="flex mt-1 pb-1 justify-between"><span>Sam👩‍💻</span> <span>$133.4k</span></li>
           <hr />
           <li className="flex mt-1 pb-1 justify-between"><span>Nick🧑‍💻</span> <span>$101k</span></li>
           <hr />
@@ -15,6 +15,6 @@ const Leaderboard = () => {
       </div>
     </div>
   );
-}; 
+};
 
 export default Leaderboard;
