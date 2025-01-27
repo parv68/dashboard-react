@@ -1,10 +1,10 @@
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
 const team = [
-  { name: "Dale", region: "North East", sales: 193.8, weekly: 4.5, image: "./src/images/image1.jpg", percent: 31, revenue: 300 },
-  { name: "Nick", region: "Mid-West", sales: 101.8, weekly: 4, image: "./src/images/image2.jpg", percent: 33, revenue: 300 },
-  { name: "Paul", region: "West", sales: 145.3, weekly: 19, image: "./src/images/image3.jpg", percent: 48, revenue: 300 },
-  { name: "Sam", region: "South", sales: 133.4, weekly: 25, image: "./src/images/image4.jpg", percent: 44, revenue: 300 },
+  { name: "Dale", region: "North East", sales: 193.8, weekly: 4.5, image: "./src/assets/image1.jpg", percent: 31, revenue: 300 },
+  { name: "Nick", region: "Mid-West", sales: 101.8, weekly: 4, image: "./src/assets/image2.jpg", percent: 33, revenue: 300 },
+  { name: "Paul", region: "West", sales: 145.3, weekly: 19, image: "./src/assets/image3.jpg", percent: 48, revenue: 300 },
+  { name: "Sam", region: "South", sales: 133.4, weekly: 25, image: "./src/assets/image4.jpg", percent: 44, revenue: 300 },
 ];
 
 const dale_sales = [
