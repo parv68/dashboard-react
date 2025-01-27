@@ -1,10 +1,10 @@
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
 const team = [
-  { name: "Dale", region: "North East", sales: 193.8, weekly: 4.5, image: "./src/assets/image1.jpg", percent: 31, revenue: 300 },
-  { name: "Nick", region: "Mid-West", sales: 101.8, weekly: 4, image: "./src/assets/image2.jpg", percent: 33, revenue: 300 },
-  { name: "Paul", region: "West", sales: 145.3, weekly: 19, image: "./src/assets/image3.jpg", percent: 48, revenue: 300 },
-  { name: "Sam", region: "South", sales: 133.4, weekly: 25, image: "./src/assets/image4.jpg", percent: 44, revenue: 300 },
+  { name: "Dale", region: "North East", sales: 193.8, weekly: 4.5, image: "https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=600", percent: 31, revenue: 300 },
+  { name: "Nick", region: "Mid-West", sales: 101.8, weekly: 4, image: "https://images.pexels.com/photos/20367778/pexels-photo-20367778/free-photo-of-brunette-in-coat-and-hat.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load", percent: 33, revenue: 300 },
+  { name: "Paul", region: "West", sales: 145.3, weekly: 19, image: "https://images.pexels.com/photos/39866/entrepreneur-startup-start-up-man-39866.jpeg?auto=compress&cs=tinysrgb&w=600", percent: 48, revenue: 300 },
+  { name: "Sam", region: "South", sales: 133.4, weekly: 25, image: "https://images.pexels.com/photos/30367969/pexels-photo-30367969/free-photo-of-young-woman-in-black-jacket-with-white-horse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", percent: 44, revenue: 300 },
 ];
 
 const dale_sales = [
